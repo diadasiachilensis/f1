@@ -22,6 +22,9 @@ fastf1_cache/
 fastf1_cache.sqlite
 *.fastf1.cache/
 *.parquet
+Cache/
+cache_folder/
+
 
 # === Archivos y carpetas temporales ===
 *.log
