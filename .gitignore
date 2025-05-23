@@ -1,11 +1,86 @@
-# Cachés de Python
+# === Entornos virtuales ===
+venv/
+.env/
+env/
+ENV/
+.venv/
+*.pyenv
+*.env
+
+# === Archivos de configuración y entornos locales ===
+*.local
+*.python-version
+
+# === Archivos de caché de Python ===
 __pycache__/
 *.py[cod]
 *$py.class
 
-#Cache fastf1
-.Cache/
-Cache/
-.cache_folder/
-cache_folder/
+# === Archivos de caché de FastF1 ===
+fastf1/
+fastf1_cache/
+fastf1_cache.sqlite
+*.fastf1.cache/
+*.parquet
 
+# === Archivos y carpetas temporales ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# === Archivos de salida de Jupyter y otros notebooks ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Archivos de configuración de VS Code y otros editores ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Archivos de sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de pruebas y cobertura ===
+htmlcov/
+.coverage
+coverage.xml
+.cache
+pytest_cache/
+.noseids
+
+# === Archivos de compilación ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Archivos de documentación generada ===
+docs/_build/
+*.pdf
+
+# === Archivos exportados ===
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+
+# === Archivos de base de datos usados localmente ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Archivos personales ===
+*.secret
+*.key
+*.pem
+
+# === FastF1 ejemplos de cachés relacionados a sesiones ===
+*.lz4
+*.feather
+*.json
+*.pkl
