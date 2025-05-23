@@ -1,0 +1,11 @@
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Cache fastf1
+.Cache/
+Cache/
+.cache_folder/
+cache_folder/
+
